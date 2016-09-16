@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyKey board</string>
+
+    <!--First Row-->
+    <string name="amh1">\u1200</string>
+    <string name="amh2">\u1208</string>
+    <string name="amh3">\u1218</string>
+
+    <string name="amh4">\u1228</string>
+    <string name="amh5">\u1230</string>
+    <string name="amh6">\u1238</string>
+
+    <string name="amh7">\u1240</string>
+    <string name="amh8">\u1260</string>
+    <string name="amh9">\u1270</string>
+
+    <string name="amh10">\u1278</string>
+
+    <!--Second Row-->
+
+    <string name="amh11">\u1290</string>
+    <string name="amh12">\u1298</string>
+    <string name="amh13">\u12a0</string>
+
+    <string name="amh14">\u12a8</string>
+    <string name="amh15">\u12c8</string>
+    <string name="amh16">\u12d8</string>
+
+    <string name="amh17">\u12e0</string>
+    <string name="amh18">\u12e8</string>
+    <string name="amh19">\u12f0</string>
+
+    <string name="amh20">\u1300</string>
+
+    <!--Third Row-->
+    <string name="amh21">\u1308</string>
+    <string name="amh22">\u1320</string>
+    <string name="amh23">\u1328</string>
+
+    <string name="amh24">\u1330</string>
+    <string name="amh25">\u1230</string>
+    <string name="amh26">\u1238</string>
+
+    <string name="amh27">\u1348</string>
+
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rox.combiningkeyboardtranslate.MainActivity">
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Tap to enter text"
+        android:inputType="textAutoCorrect"
+        android:maxLines="1"
+
+        android:scrollHorizontally="true"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/translateBtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Translate"
+        android:textSize="22dp"/>
+
+    <Button
+        android:id="@+id/switchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/translateBtn"
+        android:layout_toEndOf="@+id/translateBtn"
+        android:layout_toRightOf="@+id/translateBtn"
+        android:text="switch"/>
+
+    <TextView
+        android:id="@+id/txtOutPut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/translateBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOutPut"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/translateBtn"
+        android:layout_centerHorizontal="true"/>
+
+    <include
+        android:id="@+id/amhKeyBoard"
+        layout="@layout/keyboard"/>
+
+
+</RelativeLayout>
